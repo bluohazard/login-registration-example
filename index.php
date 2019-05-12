@@ -17,7 +17,7 @@
     <title>Login Page</title>
 </head>
 
-<body class="bg-dark">
+<body class="bg-secondary">
     <div class="container h-100">
         <div class="row h-100 justify-content-center align-items-center">
             <div class="col-6 mx-0">
