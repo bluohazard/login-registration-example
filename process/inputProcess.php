@@ -10,13 +10,10 @@ $email          = $_POST["email"];
 
 $queryInsert = "INSERT INTO registration VALUES('$nama','$jenis_kelamin','$alamat','$no_hp','$email')";
 
-if (mysqli_query($con, $queryInsert)) 
-{
+if (mysqli_query($con, $queryInsert)) {
     $message = "Insert berhasil dilakukan";
     header("Location: ../module/form.php?message=$message");
-} 
-else 
-{
+} else {
     $error = "*Insert tidak dapat dilakukan";
     header("Location: ../module/form.php?error=$error");
 }

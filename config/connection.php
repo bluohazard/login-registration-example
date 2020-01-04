@@ -9,4 +9,3 @@ date_default_timezone_set('Asia/Jakarta');
     if(!$con){
         die("Koneksi Database Gagal! <br>".mysqli_connect_error());
     }
-?>
